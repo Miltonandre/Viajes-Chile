@@ -29,6 +29,9 @@ i{
     justify-content: center;
     margin-left: -80px;
 }
+#pictures {
+    background-color: black;
+}
 h2  {
     margin-right: -80px;
 }
