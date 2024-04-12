@@ -1,0 +1,55 @@
+scroll-container {
+    display: block;
+    scroll-behavior: smooth;
+}
+h3  {
+    text-align: center;
+    padding: 40px;
+}
+#color  {
+    background-color: #2dbbf4;
+}
+p{
+    color: white;
+}
+.list-unstyled  {
+    color: #ffffff;
+    width: 400px;
+}
+i{
+    background-color: #2dbbf4;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+}
+#cuerpo {
+    background-color: black;
+    gap: 0px 150px;
+    justify-content: center;
+    margin-left: -80px;
+}
+h2  {
+    margin-right: -80px;
+}
+#primary   {
+    background-color: skyblue;
+    padding: 10px;
+}
+#second {
+    background-color: none;
+}
+#Destacados {
+    width: 263px;
+    height: 200px;
+}
+footer  {
+    background-color: #2dbbf4;
+    padding: 40px;
+}
+
+@media screen and (max-width: 980px) {
+    div#cuerpo {
+    display: none;
+    }
+}
