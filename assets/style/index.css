@@ -1,5 +1,4 @@
 scroll-container {
-    display: block;
     scroll-behavior: smooth;
 }
 h3  {
@@ -23,13 +22,16 @@ i{
     text-align: center;
     width: 400px;
 }
-#cuerpo {
+#composicion {
     background-color: black;
     gap: 0px 150px;
     justify-content: center;
     margin-left: -80px;
 }
 #pictures {
+    background-color: black;
+}
+#fondo {
     background-color: black;
 }
 h2  {
@@ -46,13 +48,24 @@ h2  {
     width: 263px;
     height: 200px;
 }
+#contact {
+    background-color: black;
+}
+#comunicacion {
+    background-color: black;
+}
 footer  {
     background-color: #2dbbf4;
     padding: 40px;
 }
+#pie {
+    display: block;
+    text-align: cente;
+}
+
 
 @media screen and (max-width: 980px) {
-    div#cuerpo {
+    div#composicion {
     display: none;
     }
 }
